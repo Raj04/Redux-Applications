@@ -8,7 +8,7 @@
 
 ## todos
 
-- Go through [https://reactrouter.com/en/main/start/overview](React Router Doc)
+- Go through [React Router Doc](https://reactrouter.com/en/main/start/overview)
 - what does replace:true does ?
 - understand about history.push() ??
 - nested routes, index, dynamic routes
