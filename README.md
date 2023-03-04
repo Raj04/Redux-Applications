@@ -1,4 +1,5 @@
-# Redux-Applications
-Redux Projects
+# Redux Projects
+- Counter App
 
-1. Counter App
+# React Router Projects
+- Blog app
