@@ -5,7 +5,7 @@ import Button from "@mui/material/Button";
 import IconButton from "@mui/material/IconButton";
 import SearchIcon from "@mui/icons-material/Search";
 import Typography from "@mui/material/Typography";
-import { NavLink, useNavigate } from "react-router-dom";
+import { NavLink, Outlet, useNavigate } from "react-router-dom";
 
 function Header(props) {
   const { sections, title } = props;
@@ -43,6 +43,7 @@ function Header(props) {
             {section.title}
           </NavLink>
         ))}
+        <Outlet />
       </Toolbar>
     </React.Fragment>
   );
